@@ -41,9 +41,9 @@ public class Main {
         return Arrays.asList(
                 new Employee("Alice", 35, Arrays.asList(projects.get(0), projects.get(1)), 70000),
                 new Employee("Bob", 45, Arrays.asList(projects.get(2), projects.get(0)), 65000),
-                new Employee("Charlie", 28, Arrays.asList(projects.get(3), projects.get(4)), 55000), // Исключен из фильтрации
-                new Employee("David", 40, Arrays.asList(projects.get(0), projects.get(2)), 80000),
-                new Employee("Eve", 50, Arrays.asList(projects.get(5), projects.get(2)), 60000) // Проект F не включен
+                new Employee("Charlie", 28, Arrays.asList(projects.get(3), projects.get(4)), 55000),
+                new Employee("David", 40, Arrays.asList(projects.get(3), projects.get(2)), 80000),
+                new Employee("Eve", 50, Arrays.asList(projects.get(5), projects.get(2)), 60000)
         );
     }
 }
